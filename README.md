@@ -26,12 +26,6 @@ You may view this comparison in different currencies by selecting a currency in 
 
 Note: to quickly redirect to the best region produt page simply click on the right side button that lists the best region price. If you are already on the best priced region, the button will display 'Best Region'.
 
-### Other Sellers Button
-
-![Other Sellers](/docs/demo1-3x.gif)
-
-When you have arrived at the lowest priced region by clicking on the locale product entry the newly loaded page will show a price comarison with other sellers in this region in the left side button. Hovering over this button will show the best priced other seller price on the right side and the current page's price on the left. Shipping info is also displayed as well as estimated tax when logged in and available. The total will be listed with the price difference shown in the button at the bottom. Click on this button to be redirected to a page with all other sellers listed. The topmost listing is the best new price for this item. Click on 'Add To Cart' to proceed with checkout of this item.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
