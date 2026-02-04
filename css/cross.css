@@ -1,0 +1,129 @@
+.best_price, .amz_price, .best_shipping, .amz_shipping {
+  width: 100%;
+}
+.flag-icon {
+  margin-right: 5px;
+}
+
+.amz-select ul li.amz-option {
+    background-color: transparent;
+    font-size: 14px;
+    /*box-shadow: 0px 1px 0 #DEDEDE, 0px -1px 0 #DEDEDE;*/
+    /*-webkit-box-shadow: 0px 1px 0 #DEDEDE, 0px -1px 0 #DEDEDE;*/
+    /*-moz-box-shadow: 0px 1px 0 #DEDEDE, 0px -1px 0 #DEDEDE;*/
+}
+
+.amz-select ul li.amz-option:hover {
+    background-color: transparent;
+}
+
+.amz-select ul li.amz-option {
+    z-index:1;
+    font-weight: 500;
+    padding:5px;
+    display:none;
+}
+
+.amz-select ul li:first-child {
+    display:block;
+}
+
+.amz-select ul li {
+    cursor:default;
+}
+
+.amz-select ul#currency-select.expanded li{
+    display: block !important;
+}
+
+.amz-select ul {
+    list-style: none;
+}
+
+.amz-select {
+    position: absolute;
+    bottom: 5px;
+    left: 13px;
+    z-index: 999999999999999;
+    width: 220px;
+}
+
+.rarr:after, .darr:after {
+    content: ' ▼ ';
+    float:left;
+    padding:0 5px;
+}
+
+
+h1.heading {
+  padding-top: 10px;
+}
+
+.div-block {
+  width: 300px;
+  height: 350px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.selectable:hover {
+  background: #F4FCF6
+}
+
+
+.heading {
+  text-align: right;
+}
+
+.div-block-2 {
+  margin-top: 46px;
+  border: 1px solid #000;
+  border-radius: 0px;
+}
+
+  .div-block {
+    width: 100%;
+    height: 100%;
+    /*margin-right: 15px;*/
+    /*margin-left: 15px;*/
+  }
+  .heading {
+    font-family: Ubuntu, Helvetica, sans-serif;
+    /*color: #5db75c;*/
+    color: black;
+  }
+  .div-block-2 {
+    margin-top: 26px;
+    border-top-color: #00aaaa;
+    border-bottom-width: 3px;
+    border-bottom-color: #00aaaa;
+    color: #00aaaa;
+  }
+  .div-block-2-top {
+      margin-top: 0px;
+  }
+  .text-block {
+    font-family: Ubuntu, Helvetica, sans-serif;
+    color: #173300;
+    font-weight: 700;
+    text-align: right;
+    font-size: 18px;
+  }
+  .columns {
+    margin-top: 20px;
+  }
+  .text-block-2 {
+    font-family: Ubuntu, Helvetica, sans-serif;
+    color: #5db75c;
+    text-align: right;
+  }
+  .text-block-3 {
+    font-family: Ubuntu, Helvetica, sans-serif;
+  }
+  .text-block-4 {
+    font-family: Ubuntu, Helvetica, sans-serif;
+  }
+  .div-block-3 {
+    width: 500px;
+  }

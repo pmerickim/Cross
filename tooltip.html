@@ -1,0 +1,141 @@
+<div class="ap_popover ap_popover_sprited compare-tooltip" surround="6,16,18,16" tabindex="0">
+	<div class="ap_header">
+		<div class="ap_left"></div>
+		<div class="ap_middle"></div>
+		<div class="ap_right"></div>
+	</div>
+	<div class="cmp_body">
+		<div class="ap_left"></div>
+		<div class="ap_content" style="padding-left: 17px; padding-right: 17px; padding-bottom: 48px; ">
+            
+			<div class="tmm_popover" >
+				{{#shops}}
+				<div class="entry title" style="">
+					<span id="compare-shop-{{id}}" class="entry compare-price">
+						<img class="compare-loader" src="{{loader_url}}" />
+					</span>
+          <span class="compare-on">on</span>
+          <a href="{{base_url}}?{{detailsTag}}" class="compare-link">{{title}}</a>
+				</div>
+				{{/shops}}
+			</div>
+			<br>
+			<div class="amz-select">
+        <ul id="currency-select" class="collapsed">
+          
+        </ul>
+      </div>
+		</div>
+        <div class="ap_right"></div>
+	</div>    
+	<div class="ap_footer">
+		<div class="ap_left"></div>
+		<div class="ap_middle">
+		</div>
+		<div class="ap_right"></div>
+	</div>
+</div>
+
+<!-- .amz_price -->
+<!-- .amz_shipping -->
+<!-- .amz_total -->
+<!-- .amz_arrive -->
+
+<!-- best_price -->
+<!-- best_shipping -->
+<!-- best_total -->
+<!-- best_arrive -->
+
+<div class="ap_popover ap_popover_sprited price-tooltip" surround="6,16,18,16" tabindex="0">
+	<div class="ap_header">
+		<div class="ap_left"></div>
+		<div class="ap_middle"></div>
+		<div class="ap_right"></div>
+	</div>
+	<div class="cmp_body">
+		<div class="ap_left"></div>
+		<div class="ap_content" style="padding-left: 17px; padding-right: 17px; padding-bottom: 8px; ">
+			<div class="div-block-3">
+          <div class="w-row">
+            <div class="w-col w-col-6">
+              <div class="div-block selectable">
+                <span>Default Price</span>
+                <div class="div-block-2 div-block-2-top"></div>
+                <div class="columns w-row">
+                  <div class="w-col w-col-6 left-30">
+                    <div class="text-block-4">Price:</div>
+                  </div>
+                  <div class="w-col w-col-6 right-70">
+                    <div class="amz_price text-block">$--.--</div>
+                  </div>
+                </div>
+                <div class="columns w-row">
+                  <div class="w-col w-col-6 left-30">
+                    <div class="text-block-3">Shipping:</div>
+                  </div>
+                  <div class="w-col w-col-6 right-70">
+                    <div class="amz_shipping text-block"></div>
+                  </div>
+                </div>
+                <div class="tax_row w-row">
+                  <div class="w-col w-col-6" style="width: 30%;">
+                    <div class="text-block-3">Tax:</div>
+                  </div>
+                  <div class="w-col w-col-6" style="width: 70%;">
+                    <div class="amz_tax text-block"></div>
+                  </div>
+                </div>
+                <div class="div-block-2"></div>
+                <h1 class="amz_total heading">$--.--</h1>
+                <div class="amz_arrive text-block-2"></div>
+              </div>
+            </div>
+            <div class="w-col w-col-6">
+              <div class="div-block selectable">
+                <span>New Price</span>
+                <div class="div-block-2 div-block-2-top"></div>
+                <div class="columns w-row">
+                  <div class="w-col w-col-6 left-30">
+                    <div class="text-block-4">Price:</div>
+                  </div>
+                  <div class="w-col w-col-6 right-70">
+                    <div class="best_price text-block">$--.--</div>
+                  </div>
+                </div>
+                <div class="columns w-row">
+                  <div class="w-col w-col-6 left-30">
+                    <div class="text-block-3">Shipping:</div>
+                  </div>
+                  <div class="w-col w-col-6 right-70">
+                    <div class="best_shipping text-block"></div>
+                  </div>
+                </div>
+                <div class="tax_row w-row">
+                  <div class="w-col w-col-6">
+                    <div class="text-block-3">Tax:</div>
+                  </div>
+                  <div class="w-col w-col-6">
+                    <div class="best_tax text-block"></div>
+                  </div>
+                </div>
+                <div class="div-block-2"></div>
+                <h1 class="best_total heading">$--.--</h1>
+                <div class="best_arrive text-block-2"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="best_save_link"><button id="amz_cmp_add_item">Save <span class="best_save"></span> buying from another Amazon seller</button></a>
+              
+		</div>
+        
+        <div class="ap_right"></div>
+	</div>    
+	<div class="ap_footer">
+		<div class="ap_left"></div>
+		<div class="ap_middle">
+		</div>
+		<div class="ap_right"></div>
+	</div>
+</div>
+
